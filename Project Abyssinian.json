@@ -72,6 +72,69 @@
         "name": "NewSprite-1.png.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialoguebox1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialoguebox1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "option_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "option_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/DialogueData.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/DialogueData.json\"}",
+        "name": "DialogueData",
+        "userAdded": true
+      },
+      {
+        "file": "PLUH.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "PLUH.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
