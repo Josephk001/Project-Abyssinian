@@ -446,12 +446,6 @@
                 ">=",
                 "0.001"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -463,24 +457,41 @@
             },
             {
               "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "PLUH.mp3",
-                "",
-                "",
-                "4"
-              ]
-            },
-            {
-              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
                 "\"typewritter\""
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "LControl"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::CompleteClippedTextScrolling"
+              },
+              "parameters": []
             }
           ]
         },
@@ -500,18 +511,19 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::ScrollClippedText"
-              },
-              "parameters": []
-            },
             {
               "type": {
                 "value": "PlaySound"
@@ -523,6 +535,42 @@
                 "",
                 "4"
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasClippedTextScrollingCompleted"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"typewritter\"",
+                ">=",
+                "0.05"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ScrollClippedText"
+              },
+              "parameters": []
             },
             {
               "type": {
