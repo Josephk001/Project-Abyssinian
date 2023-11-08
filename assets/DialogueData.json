@@ -2,10 +2,30 @@
 	{
 		"title": "begin",
 		"tags": "",
-		"body": "First Text\nSecond Text\nHello this is very long and i am a cat.\n",
+		"body": "<<name Weird Creature>> \nFirst Text\nSecond Text\nHello this is very long and i am a cat.\n[[ ok cool bro |good]]\n[[ YOUR ASS IS NOT A CAT!!!! |bad]]",
 		"position": {
 			"x": 202,
 			"y": -32
+		},
+		"colorID": 0
+	},
+	{
+		"title": "good",
+		"tags": "",
+		"body": "<<GoodCreature>>\nYou're the first person who's ever been nice to me.\nthank you stranger",
+		"position": {
+			"x": -90,
+			"y": 249
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bad",
+		"tags": "",
+		"body": "<<EvilCreature>>\nKYS!!!!!!!!!!!!!!",
+		"position": {
+			"x": 472,
+			"y": 248
 		},
 		"colorID": 0
 	}
