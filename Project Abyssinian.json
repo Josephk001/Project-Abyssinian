@@ -75,24 +75,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "dialoguebox1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "dialoguebox1.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "name_box.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "name_box.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "name_box2.png",
         "kind": "image",
         "metadata": "",
@@ -155,28 +137,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/Charm-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Roboto-BoldItalic.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8c9a07c662ceae43dd999872f6bd6916cb95b58c2ae373fd0a8aa58b91ce7c43_Roboto-BoldItalic.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "assets/Roboto-Bold.ttf",
         "kind": "font",
         "metadata": "",
@@ -201,6 +161,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/autotyping"

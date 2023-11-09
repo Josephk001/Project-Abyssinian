@@ -447,6 +447,10 @@
           "Interval": 0.05,
           "CharacterJustAdded": false,
           "CurrentCharacter": ""
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         }
       ],
       "content": {
@@ -482,6 +486,18 @@
   ],
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "<Credit: The game's dialogue engine is based off of (https://www.youtube.com/@frizfool)'s videos and tutorials.>"
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -490,6 +506,42 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<So look at this. If you click the \"Load dialogue data from json file\" and then press edit, you will see the yarn system that is core to our system>"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<Basically, all you need to know is that anything you write without special characters will be put into the game as normal text, and anything with <> in it acts as a parameter.>"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<If you want a deeper look into it: https://www.youtube.com/watch?v=WgLMq61Nnmw&list=PLZzB7bmFqpuglOnKQoUtFMwcQUFb39BS8>"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -514,28 +566,59 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"typewritter\""
-              ]
-            },
-            {
-              "type": {
                 "value": "DialogueTree::StartDialogueFromBranch"
               },
               "parameters": [
                 "\"begin\""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "DialogueTree::LoadDialogueFromJsonFile"
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
               },
               "parameters": [
                 "",
-                "DialogueData"
+                "\"Options\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Options\""
               ]
             }
           ]
@@ -565,6 +648,18 @@
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "<Ok so in the video it uses a timer system thats overly complicated to make typewritter writting. I was able to instead use an extention, but it should all be the same anyways. >"
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -639,169 +734,92 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+                        "value": "KeyReleased"
                       },
                       "parameters": [
-                        "dialogueTXT",
-                        "BBText_AutoTyping",
-                        ""
+                        "",
+                        "Down"
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "StopSoundCanal"
+                        "value": "DialogueTree::SelectPreviousOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
                       },
                       "parameters": [
                         "",
-                        "0"
+                        "Up"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::SelectNextOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "LShift"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::ConfirmSelectOption"
+                      },
+                      "parameters": []
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DialogueTree::HasSelectedOptionChanged"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "optionsTXT",
+                        "=",
+                        "DialogueTree::VerticalOptionsList(\"[b][color=blue] > [/color][/b]\")"
                       ]
                     }
                   ]
                 }
               ],
               "parameters": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Options\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DialogueTree::IsDialogueLineType"
-              },
-              "parameters": [
-                "\"options\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Options\""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectPreviousOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Up"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::SelectNextOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "LShift"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::ConfirmSelectOption"
-                  },
-                  "parameters": []
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DialogueTree::HasSelectedOptionChanged"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "BBText::SetBBText"
-                  },
-                  "parameters": [
-                    "optionsTXT",
-                    "=",
-                    "DialogueTree::VerticalOptionsList(\"[b][color=blue] > [/color][/b]\")"
-                  ]
-                }
-              ]
             }
           ]
         }
@@ -817,6 +835,18 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "<Incase you're wondering, this is a great example of how those <<>> parameters work down here.>"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -855,34 +885,77 @@
                 "BBText_AutoTyping",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlaySoundCanal"
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
               },
               "parameters": [
+                "dialogueTXT",
+                "ShakeObject_PositionAngle",
+                "0.2",
+                "2",
+                "2",
+                "0.01",
+                "0.08",
                 "",
-                "PLUH.mp3",
-                "0",
-                "",
-                "25",
-                "4"
+                ""
               ]
-            },
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "PLUH.mp3",
+                    "0",
+                    "yes",
+                    "25",
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "Wait"
+                "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
               },
               "parameters": [
-                ".1"
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
               ]
             }
           ]
@@ -919,6 +992,42 @@
                 "Animation",
                 "=",
                 "\"happy\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::IsCommandCalled"
+              },
+              "parameters": [
+                "\"EvilCreature\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=red]EVIL CREATURE[/b][/color=red]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "weird_thing",
+                "Animation",
+                "=",
+                "\"mad\""
               ]
             }
           ]
@@ -986,6 +1095,38 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "BADENDING",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1016,6 +1157,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     }
   ]
 }
