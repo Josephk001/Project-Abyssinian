@@ -12,7 +12,7 @@
 	{
 		"title": "good",
 		"tags": "",
-		"body": "<<GoodCreature>>\nYou're the first person who's ever been nice to me.\nthank you stranger",
+		"body": "<<GoodCreature>>\nYou're the first person who's ever been nice to me.\nthank you stranger\n<< HappyEnding>>",
 		"position": {
 			"x": -90,
 			"y": 249
@@ -22,7 +22,7 @@
 	{
 		"title": "bad",
 		"tags": "",
-		"body": "<<EvilCreature>>\nKYS!!!!!!!!!!!!!!",
+		"body": "<<EvilCreature>>\nKYS!!!!!!!!!!!!!!\n<<BadEnding>>",
 		"position": {
 			"x": 472,
 			"y": 248
