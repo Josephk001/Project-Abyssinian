@@ -146,6 +146,62 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jurassic-Park-NaPali-Coast.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jurassic-Park-NaPali-Coast.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PDVD_012.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "PDVD_012.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "_2887e790_68d0_11e8_8033_47bccc77d658.0.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "_2887e790_68d0_11e8_8033_47bccc77d658.0.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/LakkiReddy-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -157,6 +213,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading-screen"
     }
   ],
   "externalEvents": [],
