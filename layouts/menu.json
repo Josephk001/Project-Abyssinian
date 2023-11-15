@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 255,
   "disableInputWhenNotFocused": true,
   "mangledName": "Menu",
   "name": "Menu",
-  "r": 209,
+  "r": 196,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 255,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5610952083582068,
+    "zoomFactor": 0.44485159988866535,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -29,7 +29,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "36c3a872-2cdf-4515-952f-45b80974c9d4",
       "width": 0,
       "x": -101,
@@ -44,7 +44,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "adaaa98c-9558-407f-9185-1d1345965351",
       "width": 0,
       "x": 982,
@@ -59,7 +59,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "d78d4338-b680-46b9-934f-a7c1aa95f2eb",
       "width": 0,
       "x": 224,
@@ -74,7 +74,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "b599f7b7-2c6c-4076-8caa-d094ee1b2a2e",
       "width": 0,
       "x": 684,
@@ -89,7 +89,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "d100417f-3d8b-4bef-904c-3c88700dcd3b",
       "width": 0,
       "x": 1122,
@@ -104,7 +104,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "acd02e8a-c237-4f5a-8766-8cd61e99d3e4",
       "width": 0,
       "x": 343,
@@ -119,7 +119,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "26a7ebdb-cc2f-4113-971a-6357707003d5",
       "width": 0,
       "x": 574,
@@ -134,7 +134,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "d1b23650-6c74-4699-81cc-30a3419eede0",
       "width": 0,
       "x": 1238,
@@ -149,7 +149,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "77900d1a-7324-4db7-a617-e6e927e8fe2a",
       "width": 0,
       "x": 455,
@@ -164,7 +164,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "0d3a8405-e5e4-4475-809e-4615a8a5b802",
       "width": 0,
       "x": 56,
@@ -179,7 +179,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "7e9aa9f5-a777-4e5f-beee-64593f144b3d",
       "width": 0,
       "x": -64,
@@ -194,7 +194,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "af59e641-c4f5-4d95-9e02-ba2921617874",
       "width": 0,
       "x": 837,
@@ -209,11 +209,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "a652a94a-4f0d-4730-a309-c5f20aa47a99",
       "width": 0,
-      "x": 899,
-      "y": 507,
+      "x": -348,
+      "y": 481,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -224,11 +224,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "1f05c0e0-5dc7-42e0-8694-96097a448b06",
       "width": 0,
-      "x": 121,
-      "y": 495,
+      "x": -218,
+      "y": 459,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -239,7 +239,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "b6875841-80f4-4b48-824e-83e7df347105",
       "width": 0,
       "x": 1486,
@@ -254,7 +254,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "394b3de8-c9e2-4af0-b84b-c8278ec505a4",
       "width": 0,
       "x": 1386,
@@ -269,11 +269,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "add6d138-7681-4fdb-920d-32631c1e7742",
       "width": 0,
-      "x": 1276,
-      "y": 510,
+      "x": 1599,
+      "y": 484,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,7 +284,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "f9bb4324-95b6-4166-b116-d7838dfa99d9",
       "width": 0,
       "x": 1687,
@@ -299,11 +299,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "48e0a191-ce57-4922-99b9-4add5f58d1bc",
       "width": 0,
-      "x": 1044,
-      "y": 500,
+      "x": 1809,
+      "y": 464,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -314,11 +314,11 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "6eda365b-3289-4184-a7a6-4dcb74c6f135",
       "width": 0,
-      "x": 659,
-      "y": 498,
+      "x": -498,
+      "y": 497,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,12 +329,44 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "NewSprite",
+      "name": "tree",
       "persistentUuid": "92531893-3929-4a1d-9910-211bc17a2b66",
       "width": 0,
-      "x": 1612,
-      "y": 497,
+      "x": 1976,
+      "y": 487,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 262,
+      "layer": "",
+      "name": "dirt",
+      "persistentUuid": "c390b66c-5f7c-4d20-ba28-6dcb6bfc182c",
+      "width": 2193,
+      "x": -70,
+      "y": 929,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1425,
+      "layer": "Layer",
+      "name": "mountain",
+      "persistentUuid": "fc39dc99-9265-4e64-bd46-f5d9fd656ecf",
+      "width": 2166,
+      "x": -115,
+      "y": -450,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -344,7 +376,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "tree",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -401,10 +433,166 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dirt",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "mountain",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 58
+                      },
+                      {
+                        "x": 512,
+                        "y": 58
+                      },
+                      {
+                        "x": 512,
+                        "y": 512
+                      },
+                      {
+                        "x": 0,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
