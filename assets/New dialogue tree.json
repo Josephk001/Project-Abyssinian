@@ -12,7 +12,7 @@
 	{
 		"title": "A",
 		"tags": "",
-		"body": "You had me worrying for a seconds!\n<<meter 20>> \n[[2nd]]",
+		"body": "You had me worrying for a seconds!\n<<addmeter 20>> \n[[2nd]]",
 		"position": {
 			"x": 285,
 			"y": 631
@@ -22,7 +22,7 @@
 	{
 		"title": "B",
 		"tags": "",
-		"body": "Ok you are really not ok",
+		"body": "Ok, you are really not ok...\n[[2nd]]",
 		"position": {
 			"x": 576,
 			"y": 640
@@ -32,7 +32,7 @@
 	{
 		"title": "C",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "It was an accident, I’m trying to help you!!\n<<lessmeter 10>>\n[[2nd]]",
 		"position": {
 			"x": 887,
 			"y": 638
