@@ -259,7 +259,7 @@
         "alwaysLoaded": false,
         "file": "assets/Flat Bar Red Fill Bar.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Flat Bar Red Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Flat Bar Red Fill Bar.png",
         "smoothed": false,
         "userAdded": false,
