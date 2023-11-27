@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<emotion scared>> \n<<tina>> \nOh my God Are You Okay?\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
+		"body": "<<emotion sad>> \n<<tina>> \nOh my God Are You Okay?\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
 		"position": {
 			"x": 569,
 			"y": 351

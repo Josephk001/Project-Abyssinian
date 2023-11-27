@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "6ddcb3e5-6e5c-4774-be39-0f24a2b4622b",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -289,6 +289,89 @@
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/68aa9a6fa860ee71edbbdd8bb40fb357f4882570307bfb088af195f7fc8524f0_RampartOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile003.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled-pknkYp_aR-transformed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled-pknkYp_aR-transformed.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "chat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chat.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "name_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/OpenSans-VariableFont_wdth,wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
           "name": "gdevelop-asset-store"
         }
       }
