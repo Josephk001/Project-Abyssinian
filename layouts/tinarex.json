@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.6667374902551413,
+    "zoomFactor": 0.5250860067782561,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -248,7 +248,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "normal",
@@ -621,9 +626,17 @@
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "BBText_AutoTyping",
+          "type": "AutoTyping::BBText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
       "content": {
-        "text": "Dialogue",
+        "text": "",
         "opacity": 255,
         "fontSize": 45,
         "visible": true,
@@ -710,6 +723,32 @@
       "conditions": [
         {
           "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+          },
+          "parameters": [
+            "love_bar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "DialogueTree::IsDialogueLineType"
           },
@@ -768,12 +807,102 @@
       "actions": [
         {
           "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Tina",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
             "value": "BBText::SetBBText"
           },
           "parameters": [
             "nameTXT",
             "=",
             "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::HasBranch"
+          },
+          "parameters": [
+            "\"tina\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Tina",
+            "\"29;29;29\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"UN\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "nameTXT",
+            "=",
+            "\"[b][color=grey]???[/b][/color=grey]\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"You\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "nameTXT",
+            "=",
+            "\"[b][color=Blue]You[/b][/color=Blue]\""
           ]
         }
       ]
@@ -800,6 +929,251 @@
             "Animation",
             "=",
             "DialogueTree::CommandParameter(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "dialogueTXT",
+            "=",
+            "DialogueTree::LineText()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BBText_AutoTyping::SkipToEnd"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectNextOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectPreviousOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ConfirmSelectOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasSelectedOptionChanged"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "optionsTXT",
+                "=",
+                "DialogueTree::VerticalOptionsList(\"[b][color=blue] > [/color][/b]\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "Tina",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "5",
+                "5",
+                "1",
+                ".08",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"lessmeter\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "love_bar",
+            "-",
+            "ToNumber(DialogueTree::CommandParameter(0))",
+            ""
           ]
         }
       ]
@@ -856,6 +1230,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "BBText_AutoTyping",
+      "type": "AutoTyping::BBText_AutoTyping"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -874,6 +1252,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     }
   ]
 }

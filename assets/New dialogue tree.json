@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<emotion sad>> \n<<tina>> \nOh my God Are You Okay?\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
+		"body": "<<You>> \n*Escaping into the woods you run as fast as you can*\n*This is until you run into a large figure, and fall over*\n<<emotion sad>> \n<<tina>> \nOh my God Are You Okay?\n<< You>>\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
 		"position": {
 			"x": 569,
 			"y": 351
@@ -12,7 +12,7 @@
 	{
 		"title": "A",
 		"tags": "",
-		"body": "You had me worrying for a seconds!\n<<addmeter 20>> \n[[2nd]]",
+		"body": "You had me worrying for a second!\n<<addmeter 20>> \n[[2nd]]",
 		"position": {
 			"x": 285,
 			"y": 631
@@ -22,7 +22,7 @@
 	{
 		"title": "B",
 		"tags": "",
-		"body": "Ok, you are really not ok...\n[[2nd]]",
+		"body": "<<emotion normal>> \nOk, you are really not ok...\n[[2nd]]",
 		"position": {
 			"x": 576,
 			"y": 640
@@ -32,7 +32,7 @@
 	{
 		"title": "C",
 		"tags": "",
-		"body": "It was an accident, I’m trying to help you!!\n<<lessmeter 10>>\n[[2nd]]",
+		"body": "<<emotion angry>> \nIt was an accident, I’m trying to help you!!\n<<lessmeter 10>>\n[[2nd]]",
 		"position": {
 			"x": 887,
 			"y": 638
@@ -42,7 +42,7 @@
 	{
 		"title": "2nd",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<emotion normal>> \nSorry that I knocked you over, it's just that……. I wanted to explore the island. You don’t look like you belong here.",
 		"position": {
 			"x": 576,
 			"y": 945
