@@ -374,6 +374,65 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Untitled design.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled design.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Hot Pursuit.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hot Pursuit.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Devonshire Waltz Allegretto.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Devonshire Waltz Allegretto.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Hot Pursuit2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hot Pursuit2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "New-Recording-40.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "New-Recording-40.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "tinarex.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "tinarex.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
