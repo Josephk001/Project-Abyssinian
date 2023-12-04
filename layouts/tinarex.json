@@ -1290,9 +1290,99 @@
                     "1",
                     "no",
                     "100",
-                    "25"
+                    "1"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=grey]???[/b][/color=grey]\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "Tina",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "5",
+                "5",
+                "1",
+                ".08",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BBText_AutoTyping::IsCharacterJustAdded"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=grey]???[/b][/color=grey]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "tinarex.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
               ]
             }
           ]
