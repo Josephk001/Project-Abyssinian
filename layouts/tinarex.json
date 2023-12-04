@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4027225833325964,
+    "zoomFactor": 0.4598521426736391,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -871,29 +871,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Devonshire Waltz Allegretto.mp3",
-            "0",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -925,6 +904,34 @@
             "nameTXT",
             "=",
             "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Devonshire Waltz Allegretto.mp3",
+                "0",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ]

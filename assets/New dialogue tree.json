@@ -42,10 +42,40 @@
 	{
 		"title": "2nd",
 		"tags": "",
-		"body": "<<emotion normal>> \nSorry that I knocked you over, it's just that……. I wanted to explore the island. You don’t look like you belong here.",
+		"body": "<<emotion normal>> \nSorry that I knocked you over, it's just that……. I wanted to explore the island. You don’t look like you belong here.\n[[Wha…..What are you?|2A]]\n[[HELPPPPP MEEEEE(goblin noise)|2B]]\n[[I’m not sure how this is possible, but can you help me find the nearest exit?|2C]]",
 		"position": {
 			"x": 576,
 			"y": 945
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2A",
+		"tags": "",
+		"body": "<< emotion happy>>\n<< music>>\nI’m a Tyrannosaurus, but you can call me Tina-Rex :3\n<<Tina-Rex>> ",
+		"position": {
+			"x": 272,
+			"y": 1159
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2B",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 565,
+			"y": 1222
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2C",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 871,
+			"y": 1199
 		},
 		"colorID": 0
 	}
