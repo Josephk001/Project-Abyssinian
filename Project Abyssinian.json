@@ -433,6 +433,53 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game Title Screen (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Title Screen (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Thit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Thit",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/S_hit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "S_hit",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dhit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dhit",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -442,7 +489,7 @@
   "variables": [
     {
       "folded": true,
-      "name": "freedom",
+      "name": "level",
       "type": "number",
       "value": 0
     }
@@ -463,6 +510,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tinarex"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/sasha"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/diego"
     }
   ],
   "externalEvents": [],

@@ -792,6 +792,16 @@
           "parameters": [
             "\"Start\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "level",
+            "=",
+            "0"
+          ]
         }
       ]
     },
