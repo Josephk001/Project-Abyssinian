@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<You>> \n*Escaping into the woods you run as fast as you can*\n*This is until you run into a large figure, and fall over*\n<<emotion sad>> \n<<UN>> \nOh my God Are You Okay?\n<< You>>\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
+		"body": "<<You>> \n*Escaping into the woods you run as fast as you can*\n*This is until you run into a large figure, and fall over*\n<<emotion sad>> \n<<UN>> \nOh my God Are You Okay?\n[[ Yeah… I’m okay |A]]\n[[ Uhhh, is this real? |B]]\n[[ GET AWAY FROM ME YOU MONSTER |C]]",
 		"position": {
 			"x": 569,
 			"y": 351
@@ -42,7 +42,7 @@
 	{
 		"title": "2nd",
 		"tags": "",
-		"body": "<<emotion normal>> \nSorry that I knocked you over, it's just that……. I wanted to explore the island. You don’t look like you belong here.\n[[Wha…..What are you?|2A]]\n[[HELPPPPP MEEEEE(goblin noise)|2B]]\n[[I’m not sure how this is possible, but can you help me find the nearest exit?|2C]]",
+		"body": "<<emotion normal>> \nSorry that I knocked you over, it's just that……. I wanted to explore the island. You don’t look like you belong here.\n[[Wha…..What are you?|third]]\n[[HELPPPPP MEEEEE(goblin noise)|2B]]\n[[I’m not sure how this is possible, but can you help me find the nearest exit?|2C]]",
 		"position": {
 			"x": 576,
 			"y": 945
@@ -50,12 +50,12 @@
 		"colorID": 0
 	},
 	{
-		"title": "2A",
+		"title": "third",
 		"tags": "",
-		"body": "<< emotion happy>>\n<<tina>>\nI’m a Tyrannosaurus, but you can call me Tina-Rex :3",
+		"body": "<<happy>> \n<<emotion happy>>\n<<tina>>\nI’m a Tyrannosaurus, but you can call me Tina-Rex :3\n<<You>>\nuhhh hey there... I'm Robert.\nI never knew they made you guys into humanoid creatures...\n<<tina>>\n<<emotion angry>>\nWait… Are you with them?\nThey held us in cages and experimented on us!!!\n[[No, I’m just a visitor. They abandoned me when everything went wrong, I’m the real victim here.|3A]]\n[[I didn’t know what they were actually doing here. I was here just to see the dinosaur, but now everything is not what it seems.|3B]]\n[[Wait….Let me explain myself. I was invited here to see the exhibits, I’m guessing something went wrong. Please I got mixed up in all this|3C]]",
 		"position": {
-			"x": 274,
-			"y": 1159
+			"x": 578,
+			"y": 1544
 		},
 		"colorID": 0
 	},
@@ -64,18 +64,58 @@
 		"tags": "",
 		"body": "<<emotion mad>>\nAHHHHHHHHHHHH MAKE IT STOP!!!!!!\n<<chomp>> \n*CHOMP*\n<<lessmeter 100>>\nyou shouldnt see this text youre DEAD",
 		"position": {
-			"x": 565,
-			"y": 1222
+			"x": 314,
+			"y": 1177
 		},
 		"colorID": 0
 	},
 	{
 		"title": "2C",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "I don’t know where that is, but it wouldn’t matter because they locked down everything.\n<<addmeter 10>> \n[[third]]",
 		"position": {
 			"x": 871,
 			"y": 1199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3A",
+		"tags": "",
+		"body": "VICTIM??? They experimented on us, kept the ones that were docile. I'LL SHOW YOU HOW IT FEELS TO BE A VICTIM!\n<<lessmeter 20>> \n<<emotion normal>> \nSorry, I'm sure this is a stressful situation for the both of us.\n[[4th]]",
+		"position": {
+			"x": 176,
+			"y": 1828
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3B",
+		"tags": "",
+		"body": "<<emotion sad>> \nYour lucky that I feel sorry for you, but try anything and you will end up like the other.\n<<addmeter 20>>\n[[4th]]",
+		"position": {
+			"x": 581,
+			"y": 1851
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3C",
+		"tags": "",
+		"body": "Exhibits??? I was created just so that I would live my life in a cage?\n<<crunch>>\n*She chomps you*\n<<lessmeter 150>>\nYOURE DEAD!!!\n",
+		"position": {
+			"x": 955,
+			"y": 1874
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4th",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 581,
+			"y": 2214
 		},
 		"colorID": 0
 	}
