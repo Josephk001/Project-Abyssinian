@@ -480,6 +480,110 @@
         "name": "dhit",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Lettuce-48162 (1) (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Lettuce-48162 (1) (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game Over  (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Over  (1).png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "324125cb585f82598dfa4c27a79e08c98042332f837f5c1c926dcfb15ffe55c9_MPLUS1p-Medium.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/324125cb585f82598dfa4c27a79e08c98042332f837f5c1c926dcfb15ffe55c9_MPLUS1p-Medium.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Roboto-Italic.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Silkscreen-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/YujiBoku-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/7c928f620ebb8a04660d0057e2ee0de0346d35b004910bd29deaf95df132803b_YujiBoku-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Send for the Horses.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Send for the Horses.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Leaving Home.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Leaving Home.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "restaurant-music-110483.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "restaurant-music-110483.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -518,6 +622,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/diego"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/death"
     }
   ],
   "externalEvents": [],

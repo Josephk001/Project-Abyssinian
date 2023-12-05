@@ -182,8 +182,8 @@
         "BarBottomPadding": 6,
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
-        "MaxValue": 150,
-        "InitialValue": 50
+        "MaxValue": 100,
+        "InitialValue": 40
       },
       "childrenContent": {
         "Background": {
@@ -795,12 +795,15 @@
         },
         {
           "type": {
-            "value": "ModVarGlobal"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
-            "level",
-            "=",
-            "0"
+            "",
+            "Leaving Home.mp3",
+            "0",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -825,7 +828,7 @@
           },
           "parameters": [
             "",
-            "\"Menu\"",
+            "\"death\"",
             ""
           ]
         }
@@ -881,8 +884,30 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"chomp\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Lettuce-48162 (1) (1).mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -916,32 +941,90 @@
             "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
           ]
         }
-      ],
-      "events": [
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySoundCanal"
-              },
-              "parameters": [
-                "",
-                "Devonshire Waltz Allegretto.mp3",
-                "0",
-                "",
-                "",
-                ""
-              ]
-            }
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"happy\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "restaurant-music-110483.mp3",
+            "1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"intense\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Leaving Home.mp3",
+            "0",
+            "",
+            "",
+            ""
           ]
         }
       ]
@@ -998,15 +1081,6 @@
             "nameTXT",
             "=",
             "\"[b][color=grey]???[/b][/color=grey]\""
-          ]
-        },
-        {
-          "type": {
-            "value": "StopSoundCanal"
-          },
-          "parameters": [
-            "",
-            "0"
           ]
         }
       ]
@@ -1284,6 +1358,15 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueLineType"
+                  },
+                  "parameters": [
+                    "\"options\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
@@ -1419,6 +1502,32 @@
           "parameters": [
             "love_bar",
             "-",
+            "ToNumber(DialogueTree::CommandParameter(0))",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"addmeter\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "love_bar",
+            "+",
             "ToNumber(DialogueTree::CommandParameter(0))",
             ""
           ]
