@@ -587,83 +587,91 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "pterodactyl.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"pterodactyl.png\",\"extension\":\".png\"}",
-        "name": "pterodactyl.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "B. Eagle 2.png",
+        "file": "Tina-rex.png",
         "kind": "image",
         "metadata": "",
-        "name": "B. Eagle 2.png",
+        "name": "Tina-rex.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/B. Eagle 2.png",
+        "file": "Spino.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle 2.png\"}",
-        "name": "B. Eagle 2",
+        "metadata": "",
+        "name": "Spino.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/B. Eagle3.png",
+        "file": "war vet.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle3.png\"}",
-        "name": "B. Eagle3",
+        "metadata": "",
+        "name": "war vet.png",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/B. Eagle4.png",
+        "file": "assets/NewSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle4.png\"}",
-        "name": "B. Eagle4",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "inspiring-cinematic-ambient-116199.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "inspiring-cinematic-ambient-116199.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "price-of-freedom-33106.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "price-of-freedom-33106.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy1wLWwxNjd4ZGdvLnBuZw.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy1wLWwxNjd4ZGdvLnBuZw.webp",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/B. Eagle5.png",
+        "file": "unnamed (2).jpg",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle5.png\"}",
-        "name": "B. Eagle5",
+        "metadata": "",
+        "name": "unnamed (2).jpg",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/B. Eagle6.png",
+        "file": "assets/NewSprite5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle6.png\"}",
-        "name": "B. Eagle6",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/B. Eagle7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/B. Eagle7.png\"}",
-        "name": "B. Eagle7",
-        "smoothed": false,
-        "userAdded": true
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "objectsGroups": [],
   "variables": [
     {
@@ -671,6 +679,12 @@
       "name": "level",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Rizz",
+      "type": "number",
+      "value": 3
     }
   ],
   "layouts": [
@@ -688,11 +702,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/sasha"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tinarex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/sasha"
+      "referenceTo": "/layouts/fsi"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -709,14 +727,6 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/rectangularmovement"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
-    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4598521426736391,
+    "zoomFactor": 0.38958562738273395,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "name": "love_bar",
       "persistentUuid": "51fdafa9-78ff-41ec-9ca2-4cf66dd6fa72",
       "width": 468,
-      "x": 1423,
-      "y": 61,
+      "x": 1388,
+      "y": 52,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,8 +48,8 @@
       "name": "Tina_s_Affection",
       "persistentUuid": "41490872-8833-4b2f-b2ee-3f48af048190",
       "width": 0,
-      "x": 1533,
-      "y": 14,
+      "x": 1500,
+      "y": 10,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,30 +167,32 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
       "layer": "",
-      "name": "blue_bird",
-      "persistentUuid": "26017eec-cade-46ec-ab8d-d70616b8c694",
-      "width": 0,
-      "x": -203,
-      "y": -102,
-      "zOrder": -2,
+      "name": "heart",
+      "persistentUuid": "299d4d28-0f6c-4af2-90e1-13d375a9f533",
+      "width": 45,
+      "x": 1863,
+      "y": 54,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
       "layer": "",
-      "name": "B_Egale",
-      "persistentUuid": "c982f04c-31b7-42e4-bdcc-022a5c1e7bb8",
-      "width": 0,
-      "x": -182,
-      "y": -153,
-      "zOrder": -1,
+      "name": "sad",
+      "persistentUuid": "c0b1c99c-862d-4f32-ade1-1fd7c347b1ef",
+      "width": 55,
+      "x": 1313,
+      "y": 48,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -200,6 +202,7 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "love_bar",
+      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -268,6 +271,7 @@
       "italic": false,
       "name": "Tina_s_Affection",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -287,6 +291,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tina",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -544,6 +549,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -604,6 +610,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "nameTag",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -663,6 +670,7 @@
     {
       "assetStoreId": "",
       "name": "dialogueTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -689,6 +697,7 @@
     {
       "assetStoreId": "",
       "name": "nameTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -707,6 +716,7 @@
     {
       "assetStoreId": "",
       "name": "optionsTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -726,6 +736,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -785,44 +796,25 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "blue_bird",
+      "name": "heart",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "RectangleMovement",
-          "type": "RectangleMovement::RectangleMovement",
-          "Width": 2250,
-          "Height": 200,
-          "Clockwise": true,
-          "HorizontalEdgeDuration": 3,
-          "VerticalEdgeDuration": 5,
-          "Left": 1,
-          "Top": 1,
-          "Progress": 1,
-          "OldX": 1,
-          "OldY": 1,
-          "Easing": "easeInOutSine",
-          "InitialPosition": "Top-left corner",
-          "ToogleClockwise": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "pterodactyl",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "pterodactyl.png",
+                  "image": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy1wLWwxNjd4ZGdvLnBuZw.webp",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -838,20 +830,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 13
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 100,
-                        "y": 13
+                        "x": 800,
+                        "y": 0
                       },
                       {
-                        "x": 100,
-                        "y": 86
+                        "x": 800,
+                        "y": 1120
                       },
                       {
-                        "x": 1,
-                        "y": 86
+                        "x": 0,
+                        "y": 1120
                       }
                     ]
                   ]
@@ -865,44 +857,25 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "B_Egale",
+      "name": "sad",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "RectangleMovement",
-          "type": "RectangleMovement::RectangleMovement",
-          "Width": 2250,
-          "Height": 350,
-          "Clockwise": false,
-          "HorizontalEdgeDuration": 2,
-          "VerticalEdgeDuration": 10,
-          "Left": 1,
-          "Top": 1,
-          "Progress": 1,
-          "OldX": 1,
-          "OldY": 1,
-          "Easing": "easeInOutSine",
-          "InitialPosition": "Top-left corner",
-          "ToogleClockwise": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "B. Eagle 2",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "B. Eagle 2",
+                  "image": "unnamed (2).jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -918,200 +891,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 7,
-                        "y": 64
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 74,
-                        "y": 64
+                        "x": 2077,
+                        "y": 0
                       },
                       {
-                        "x": 74,
-                        "y": 106
+                        "x": 2077,
+                        "y": 2725
                       },
                       {
-                        "x": 7,
-                        "y": 106
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "B. Eagle3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 106
-                      },
-                      {
-                        "x": 7,
-                        "y": 106
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "B. Eagle4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 106
-                      },
-                      {
-                        "x": 7,
-                        "y": 106
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "B. Eagle5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 106
-                      },
-                      {
-                        "x": 7,
-                        "y": 106
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "B. Eagle6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 106
-                      },
-                      {
-                        "x": 7,
-                        "y": 106
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "B. Eagle7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 64
-                      },
-                      {
-                        "x": 74,
-                        "y": 106
-                      },
-                      {
-                        "x": 7,
-                        "y": 106
+                        "x": 0,
+                        "y": 2725
                       }
                     ]
                   ]
@@ -1123,38 +916,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "love_bar"
-      },
-      {
-        "objectName": "Tina_s_Affection"
-      },
-      {
-        "objectName": "Tina"
-      },
-      {
-        "objectName": "dialogueBox"
-      },
-      {
-        "objectName": "nameTag"
-      },
-      {
-        "objectName": "dialogueTXT"
-      },
-      {
-        "objectName": "nameTXT"
-      },
-      {
-        "objectName": "optionsTXT"
-      },
-      {
-        "objectName": "background"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1192,8 +953,8 @@
           },
           "parameters": [
             "",
-            "Leaving Home.mp3",
-            "0",
+            "restaurant-music-110483.mp3",
+            "2",
             "",
             "",
             ""
@@ -1332,92 +1093,6 @@
             "nameTXT",
             "=",
             "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"happy\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PauseSoundCanal"
-          },
-          "parameters": [
-            "",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "restaurant-music-110483.mp3",
-            "1",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsCommandCalled"
-          },
-          "parameters": [
-            "\"intense\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PauseSoundCanal"
-          },
-          "parameters": [
-            "",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Leaving Home.mp3",
-            "0",
-            "",
-            "",
-            ""
           ]
         }
       ]
@@ -1949,6 +1624,16 @@
             "\"win\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Rizz",
+            "=",
+            "1"
+          ]
         }
       ]
     }
@@ -2052,10 +1737,6 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "RectangleMovement",
-      "type": "RectangleMovement::RectangleMovement"
-    },
-    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -2066,10 +1747,6 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
