@@ -112,10 +112,50 @@
 	{
 		"title": "4th",
 		"tags": "",
-		"body": "Look, I want to explore the island and you want to leave here. We can do both if you agree that you will go with me to see other dinosaurs and the exhibits.",
+		"body": "Look, I want to explore the island and you want to leave here. We can do both if you agree that you will go with me to see other dinosaurs and the exhibits.\n[[I take my chances|4A]]\n[[I can agree to that, but why do you need me for it?|4B]]\n[[Sooo.... It's a date?|4C]]",
 		"position": {
-			"x": 581,
-			"y": 2214
+			"x": 561,
+			"y": 2212
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4A",
+		"tags": "",
+		"body": "<<emotion angry>> \n<<lessmeter 10>> \nYou could, but you would be dead in a matter of minutes\n[[end]]",
+		"position": {
+			"x": 200,
+			"y": 2576
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4B",
+		"tags": "",
+		"body": "<<emotion happy>>\n<<addmeter 5>>\nYou have the map and a key card to open every gate.\n[[end]]",
+		"position": {
+			"x": 557,
+			"y": 2635
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4C",
+		"tags": "",
+		"body": "<<addmeter 10>>\n<<emotion love>>\nUhhh yeah\na- a date ;3\n[[end]]",
+		"position": {
+			"x": 907,
+			"y": 2562
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "<<emotion normal>>\n<<You>>\n*we began on our journey.*\n*Hoping for the best.*\n*But expecting the worse.*\n<<end>>\nend",
+		"position": {
+			"x": 563,
+			"y": 3055
 		},
 		"colorID": 0
 	}
