@@ -712,6 +712,22 @@
         "name": "tile008.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/DialogueData.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\DialogueData.json",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/sasha.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "sasha",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
