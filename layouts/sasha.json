@@ -215,7 +215,7 @@
         "BarLeftPadding": 4,
         "BarRightPadding": 4,
         "MaxValue": 100,
-        "InitialValue": 40
+        "InitialValue": 50
       },
       "childrenContent": {
         "Background": {
@@ -953,10 +953,10 @@
           },
           "parameters": [
             "",
-            "restaurant-music-110483.mp3",
+            "onlymp3.to - In Saint Petersburg-CcSEO9xTz6Y-192k-1701970575.mp3",
             "2",
             "",
-            "",
+            "10",
             ""
           ]
         }
@@ -1419,43 +1419,6 @@
                 ""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "DialogueTree::IsDialogueLineType"
-                  },
-                  "parameters": [
-                    "\"options\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "tinarex.mp3",
-                    "1",
-                    "no",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
@@ -1527,6 +1490,15 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -1539,7 +1511,62 @@
               },
               "parameters": [
                 "",
-                "tinarex.mp3",
+                "sasa3.mp3",
+                "1",
+                "no",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BBText_AutoTyping::IsCharacterJustAdded"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=#4f6cff]Sasha[/b][/color=#4f6cff]\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sasa4.mp3",
                 "1",
                 "no",
                 "100",
@@ -1747,10 +1774,6 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

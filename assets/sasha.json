@@ -42,7 +42,7 @@
 	{
 		"title": "2nd",
 		"tags": "",
-		"body": "<<emotion normal>>\nOkay, let me try this again.\n<<sasha>>\nHi, I am Sasha.\nAnd you will help me and my daughter.\nOr you shall be stomped.\n[[Only if you can get me out of here alive successfully|2A]]\n[[“Stomp on me?” I’m an ant compared to you.|2B]]\n[[I don’t know you or what you even are!!!|2C]]",
+		"body": "<<emotion happy>>\nOkay, let me try this again.\n<<sasha>>\nHi, I am Sasha.\nAnd you will help me and my daughter.\nOr you shall be stomped.\n[[Only if you can get me out of here alive successfully|2A]]\n[[“Stomp on me?” I’m an ant compared to you.|2B]]\n[[What! No, I cant let you things out!!!|2C]]",
 		"position": {
 			"x": 452,
 			"y": 973
@@ -62,9 +62,9 @@
 	{
 		"title": "2B",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<emotion angry>>\nYOU CALLING ME FAT?\n[[Yeah, fatter than yo mama|B1]]\n[[No uh…. You got a ideal figure for dinosaur|B2]]\n[[I just saying that with your size there might be an accident|B3]]",
 		"position": {
-			"x": 455,
+			"x": 456,
 			"y": 1320
 		},
 		"colorID": 0
@@ -72,10 +72,10 @@
 	{
 		"title": "2C",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<emotion angry>>\nFind then, Ill find another human.\nAnd have you for lunch...\n<<chomp>>\n*CHOMP*\n<<lessmeter 200>>\ndead",
 		"position": {
-			"x": 1471,
-			"y": 1324
+			"x": 967,
+			"y": 1207
 		},
 		"colorID": 0
 	},
@@ -92,7 +92,7 @@
 	{
 		"title": "A2",
 		"tags": "",
-		"body": "Smart one. I don’t like that in my preys, but I allow this once Robert.",
+		"body": "<<emotion happy>>\n<<addmeter 20>>\nSmart one. I don’t like that in my preys, but I allow this once Robert.\n[[3rd]]",
 		"position": {
 			"x": -355,
 			"y": 1691
@@ -102,7 +102,7 @@
 	{
 		"title": "A3",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "YOU THINK YOU CAN USE MY CHILD TO CONTROL ME!!!!!!!\n<<chomp>>\n*She crunches your head*\n<<lessmeter 200>>\ndead",
 		"position": {
 			"x": -129,
 			"y": 1490
@@ -112,10 +112,80 @@
 	{
 		"title": "3rd",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<You>>\n*We began walking forward, looking for her daughter*\n*Thats when we were attacked by a group of blood hungry raptors*\n<<emotion sad>>\n*They got the upperhand of Sasha*\n*so I picked up a rock and tossed it at the raptors*\n<<emotion happy>>\n*Sasha was now able to fight back, and she scared off the raptors*\n<<sasha>>\n<<emotion love>>\nThat was close. Why did you help me?\n[[We made a deal and without you, I will get eaten alive by those raptors|3A]]\n[[They were attacking you and I just [i]had[/i] to do something|3B]]\n[[I was very hesitant if I should make a run for it|3C]]",
 		"position": {
 			"x": 440,
 			"y": 2193
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B1",
+		"tags": "",
+		"body": "<<lessmeter 9999>>\nyoure dead",
+		"position": {
+			"x": 188,
+			"y": 1525
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B2",
+		"tags": "",
+		"body": "<<emotion normal>>\nThat what I thought.\n[[3rd]]",
+		"position": {
+			"x": 483,
+			"y": 1568
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B3",
+		"tags": "",
+		"body": "<<emotion normal>>\nIf you weren’t the only one alive I would have crushed you.\n<<addmeter 20>>\n[[3rd]]",
+		"position": {
+			"x": 799,
+			"y": 1530
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3A",
+		"tags": "",
+		"body": "<<addmeter 10>>\nI will honor you the same then.\n[[end]]",
+		"position": {
+			"x": 152,
+			"y": 2514
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3B",
+		"tags": "",
+		"body": "<<addmeter 20>>\nThat naive…..but I appreciate it.\n[[end]]",
+		"position": {
+			"x": 442,
+			"y": 2554
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3C",
+		"tags": "",
+		"body": "<<emotion angry>>\n<<lessmeter 10>>\nAre you having a laugh? If not then, then let move now.\n[[end]]",
+		"position": {
+			"x": 770,
+			"y": 2446
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "*Thus, we continued though the woods, soon finding her daughter*\n*She was in an electric cage. This could be bad*\n*I grabbed anyways. I made a deal*\n<<end>>",
+		"position": {
+			"x": 445,
+			"y": 2940
 		},
 		"colorID": 0
 	}

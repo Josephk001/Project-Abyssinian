@@ -956,7 +956,7 @@
             "restaurant-music-110483.mp3",
             "2",
             "",
-            "",
+            "20",
             ""
           ]
         }
@@ -1419,43 +1419,6 @@
                 ""
               ]
             }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "DialogueTree::IsDialogueLineType"
-                  },
-                  "parameters": [
-                    "\"options\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "tinarex.mp3",
-                    "1",
-                    "no",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
@@ -1517,6 +1480,15 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::IsBBText"
               },
               "parameters": [
@@ -1543,7 +1515,62 @@
                 "1",
                 "no",
                 "100",
-                "1"
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BBText_AutoTyping::IsCharacterJustAdded"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "tinarex.mp3",
+                "1",
+                "no",
+                "100",
+                "2"
               ]
             }
           ]

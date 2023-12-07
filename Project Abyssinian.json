@@ -728,6 +728,56 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/sasha.json\"}",
         "name": "sasha",
         "userAdded": true
+      },
+      {
+        "file": "sasa.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sasa.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sasa2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sasa2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sasa3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sasa3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sasa4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sasa4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "onlymp3.to - In Saint Petersburg-CcSEO9xTz6Y-192k-1701970575.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "onlymp3.to - In Saint Petersburg-CcSEO9xTz6Y-192k-1701970575.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
