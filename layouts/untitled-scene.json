@@ -124,6 +124,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "weird_thing",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -283,6 +284,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -343,6 +345,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "nameBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -403,6 +406,7 @@
       "assetStoreId": "",
       "height": 40,
       "name": "optionsBox",
+      "tags": "",
       "texture": "option_box.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 40,
@@ -413,6 +417,7 @@
     {
       "assetStoreId": "",
       "name": "nameTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -431,6 +436,7 @@
     {
       "assetStoreId": "",
       "name": "dialogueTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -461,6 +467,7 @@
     {
       "assetStoreId": "",
       "name": "optionsTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -477,32 +484,6 @@
       }
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "weird_thing"
-      },
-      {
-        "objectName": "dialogueBox"
-      },
-      {
-        "objectName": "nameBox"
-      },
-      {
-        "objectName": "optionsBox"
-      },
-      {
-        "objectName": "nameTXT"
-      },
-      {
-        "objectName": "dialogueTXT"
-      },
-      {
-        "objectName": "optionsTXT"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Comment",

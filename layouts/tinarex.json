@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6406912462476595,
+    "zoomFactor": 0.5610952083582171,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -196,12 +196,43 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "B_Egale",
+      "persistentUuid": "b2794cd6-59d6-4590-ac0f-548674e00c0d",
+      "width": 0,
+      "x": -136,
+      "y": -144,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ptar",
+      "persistentUuid": "5b68ec12-5f17-4f02-9170-cbd4000d5b00",
+      "width": 0,
+      "x": -147,
+      "y": -123,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "love_bar",
+      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -270,6 +301,7 @@
       "italic": false,
       "name": "Tina_s_Affection",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -289,6 +321,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Tina",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -546,6 +579,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueBox",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -606,6 +640,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "nameTag",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -665,6 +700,7 @@
     {
       "assetStoreId": "",
       "name": "dialogueTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -691,6 +727,7 @@
     {
       "assetStoreId": "",
       "name": "nameTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -709,6 +746,7 @@
     {
       "assetStoreId": "",
       "name": "optionsTXT",
+      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -728,6 +766,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -788,6 +827,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "heart",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -848,6 +888,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "sad",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -903,46 +944,347 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "B_Egale",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 2250,
+          "Height": 350,
+          "Clockwise": false,
+          "HorizontalEdgeDuration": 2,
+          "VerticalEdgeDuration": 10,
+          "Left": 1,
+          "Top": 1,
+          "Progress": 1,
+          "OldX": 1,
+          "OldY": 1,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "B. Eagle4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle19",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "B. Eagle21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 64
+                      },
+                      {
+                        "x": 68,
+                        "y": 106
+                      },
+                      {
+                        "x": 1,
+                        "y": 106
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ptar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "RectangleMovement",
+          "type": "RectangleMovement::RectangleMovement",
+          "Width": 2250,
+          "Height": 250,
+          "Clockwise": true,
+          "HorizontalEdgeDuration": 3,
+          "VerticalEdgeDuration": 5,
+          "Left": 1,
+          "Top": 1,
+          "Progress": 1,
+          "OldX": 1,
+          "OldY": 1,
+          "Easing": "easeInOutSine",
+          "InitialPosition": "Top-left corner",
+          "ToogleClockwise": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pterodactyl3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 13
+                      },
+                      {
+                        "x": 100,
+                        "y": 13
+                      },
+                      {
+                        "x": 100,
+                        "y": 86
+                      },
+                      {
+                        "x": 1,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "love_bar"
-      },
-      {
-        "objectName": "Tina_s_Affection"
-      },
-      {
-        "objectName": "Tina"
-      },
-      {
-        "objectName": "dialogueBox"
-      },
-      {
-        "objectName": "nameTag"
-      },
-      {
-        "objectName": "dialogueTXT"
-      },
-      {
-        "objectName": "nameTXT"
-      },
-      {
-        "objectName": "optionsTXT"
-      },
-      {
-        "objectName": "background"
-      },
-      {
-        "objectName": "heart"
-      },
-      {
-        "objectName": "sad"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1762,6 +2104,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "RectangleMovement",
+      "type": "RectangleMovement::RectangleMovement"
     },
     {
       "name": "Resizable",
