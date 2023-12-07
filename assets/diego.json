@@ -2,10 +2,180 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<You>>\n*I open my eyes, face on the ground*\nuhhhgg... what happened...\n<<UN>>\nGet up meat bag. We have an island to take over.\n<<You>>\nI look up to see a weird dino-shaped man.\n[[That’s a mask right?|1A]]\n[[What are you?? And why are you bigger than a horse on steroids???|1B]]\n[[Please spare my life!!|1C]]",
 		"position": {
 			"x": 569,
 			"y": 351
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1A",
+		"tags": "",
+		"body": "<<UN>>\n<<emotion happy>>\nIm real alright!\n<<emotion normal>>\nIm as dino as you are human!\n[[2nd]]",
+		"position": {
+			"x": 270,
+			"y": 625
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1B",
+		"tags": "",
+		"body": "<<UN>>\n<<emotion happy>>\nI am Dilophosaurus and I am the strongest of my kind!!\n<<addmeter 5>>\n[[2nd]]",
+		"position": {
+			"x": 573,
+			"y": 623
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1C",
+		"tags": "",
+		"body": "<<UN>>\n<<emotion angry>>\nRelax boy!!\nWE DONT NEED THAT WEEKNESS HERE!!!\n[[2nd]]",
+		"position": {
+			"x": 880,
+			"y": 627
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2nd",
+		"tags": "",
+		"body": "<<emotion normal>>\nMy name is Diego.\nI need humans like you to join my fight against the T-rex.\n[[I’m not fighting in your so call war|2A]]\n[[T-rex huh? I think you just want extra bodies to throw at him.|2B]]\n[[You want “me”? I just a visitor, how exactly will I be useful against an T-rex|2C]]",
+		"position": {
+			"x": 578,
+			"y": 955
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2A",
+		"tags": "",
+		"body": "<<emotion angry>>\nThis war I’m fighting…. is for everyone and I know you have no where to get out so what is it going to be. Death or Honor?\n[[Please… just let me go. This is crazy!!!|A1]]\n[[Why this particular T-rex?|A2]]\n[[If I join your fight…will you let me go?|A3]]",
+		"position": {
+			"x": -164,
+			"y": 1128
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2B",
+		"tags": "",
+		"body": "Everyone has a place in my army and your place will be very efficient in my plans.\n[[What do I have to offer?|B1]]\n[[Are you planning to use me as bait for the T-rex?|B2]]\n[[Who is in your army?|B3]]",
+		"position": {
+			"x": 570,
+			"y": 1212
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2C",
+		"tags": "",
+		"body": "Your the visitor which means they gave you access to every building on the island.\n[[This card? You just want me to gather information?|C1]]\n[[So I will be giving you a tactical advantage over the T-rex?|C2]]\n[[You can find some other person|C3]]",
+		"position": {
+			"x": 1517,
+			"y": 1134
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A1",
+		"tags": "",
+		"body": "So be death...\n<<chomp>>\n*CHOMP*\n<<lessmeter 999>>\nbe",
+		"position": {
+			"x": -674,
+			"y": 1143
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A2",
+		"tags": "",
+		"body": "IT killed my family and not only that it went on a rampage massacring anyone in its path. I have my own reasons, but you have your own reason as well.\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nSWEET!\n<<addmeter 10>>\n[[3rd]]",
+		"position": {
+			"x": -401,
+			"y": 1409
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A3",
+		"tags": "",
+		"body": "<<emotion normal>>\nLike a Pardon? I will give you one if we won the war and if your still alive\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nSWEET!\n<<addmeter 20>>\n[[3rd]]",
+		"position": {
+			"x": -96,
+			"y": 1406
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3rd",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 511,
+			"y": 1925
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B1",
+		"tags": "",
+		"body": "<<addmeter 20>>\nYour position involves getting intel and accessing buildings to which I have no access to.\n[[3rd]]",
+		"position": {
+			"x": 323,
+			"y": 1496
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B2",
+		"tags": "",
+		"body": "<<addmeter 5>>\nThat was one of my ideas, but since you have the card, I have a better idea for you.\n[[3rd]]",
+		"position": {
+			"x": 617,
+			"y": 1493
+		},
+		"colorID": 0
+	},
+	{
+		"title": "B3",
+		"tags": "",
+		"body": "I have a group of velociraptor, humans, and Triceptops.\n<<addmeter 5>>\n[[3rd]]",
+		"position": {
+			"x": 918,
+			"y": 1494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "C1",
+		"tags": "",
+		"body": "<<emotion angry>>\nInformation is power. I know that the T-rex thinks it is the strongest. It true, but his advantages is only physical.\n[[3rd]]",
+		"position": {
+			"x": 1391,
+			"y": 1440
+		},
+		"colorID": 0
+	},
+	{
+		"title": "C2",
+		"tags": "",
+		"body": "<<addmeter 20>>\nThe T-rex strength is limited and with the amount of enemies he has, he will be taken down successfully.\n[[3rd]]",
+		"position": {
+			"x": 1718,
+			"y": 1450
+		},
+		"colorID": 0
+	},
+	{
+		"title": "C3",
+		"tags": "",
+		"body": "<<emotion sad>>\nThe other guy is gone…\n<<emotion angry>>\nand you don’t have a choice.\n<<lessmeter 10>>\n[[3rd]]",
+		"position": {
+			"x": 1978,
+			"y": 1584
 		},
 		"colorID": 0
 	}

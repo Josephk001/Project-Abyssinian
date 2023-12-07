@@ -846,8 +846,28 @@
         "disablePreload": false,
         "file": "assets/diego.json",
         "kind": "json",
-        "metadata": "{\"extension\":\".json\"}",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/diego.json\"}",
         "name": "diego",
+        "userAdded": true
+      },
+      {
+        "file": "doomguy-unf-grunt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "doomguy-unf-grunt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "stylish-blues-rock-wild-west-111842.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "stylish-blues-rock-wild-west-111842.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": true
       }
     ],

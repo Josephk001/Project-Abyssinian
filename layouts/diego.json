@@ -953,7 +953,7 @@
           },
           "parameters": [
             "",
-            "restaurant-music-110483.mp3",
+            "stylish-blues-rock-wild-west-111842.mp3",
             "2",
             "",
             "20",
@@ -1398,7 +1398,7 @@
               "parameters": [
                 "nameTXT",
                 "=",
-                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+                "\"[b][color=#007006]Diego[/b][/color=#007006]\""
               ]
             }
           ],
@@ -1511,11 +1511,11 @@
               },
               "parameters": [
                 "",
-                "tinarex.mp3",
+                "doomguy-unf-grunt.mp3",
                 "1",
                 "no",
                 "100",
-                "2"
+                "1"
               ]
             }
           ]
@@ -1540,7 +1540,7 @@
               "parameters": [
                 "nameTXT",
                 "=",
-                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+                "\"[b][color=#007006]Diego[/b][/color=#007006]\""
               ]
             },
             {
@@ -1566,11 +1566,11 @@
               },
               "parameters": [
                 "",
-                "tinarex.mp3",
+                "doomguy-unf-grunt.mp3",
                 "1",
                 "no",
                 "100",
-                "2"
+                "1"
               ]
             }
           ]
