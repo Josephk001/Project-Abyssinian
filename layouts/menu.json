@@ -607,16 +607,6 @@
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "level",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "PlaySound"
           },
           "parameters": [

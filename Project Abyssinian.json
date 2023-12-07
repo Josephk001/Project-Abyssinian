@@ -778,6 +778,77 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "happy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "happy.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Nuetral.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Nuetral.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "anger.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "anger.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sad.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sad.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "happy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "happy2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "love.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "love.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/diego.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "diego",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -817,11 +888,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/diego"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/tinarex"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/diego"
+      "referenceTo": "/layouts/notd"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

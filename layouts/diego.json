@@ -18,15 +18,1686 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.4303403802207734,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
-  "objects": [],
-  "events": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 73,
+      "layer": "",
+      "name": "love_bar",
+      "persistentUuid": "51fdafa9-78ff-41ec-9ca2-4cf66dd6fa72",
+      "width": 468,
+      "x": 1388,
+      "y": 52,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Tina_s_Affection",
+      "persistentUuid": "41490872-8833-4b2f-b2ee-3f48af048190",
+      "width": 0,
+      "x": 1490,
+      "y": 15,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 993,
+      "layer": "",
+      "name": "Tina",
+      "persistentUuid": "cf4f1acd-8fdc-487d-abd0-59c34fc854ad",
+      "width": 653,
+      "x": 569,
+      "y": 93,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "dialogueBox",
+      "persistentUuid": "3c53e29a-b90b-42a6-81b6-8e4c7df216de",
+      "width": 0,
+      "x": 72,
+      "y": 727,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "nameTag",
+      "persistentUuid": "4c875a99-339d-4d67-b4b5-d53fb80775cf",
+      "width": 0,
+      "x": 88,
+      "y": 619,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 311,
+      "layer": "",
+      "name": "dialogueTXT",
+      "persistentUuid": "381da474-4092-4f2f-9393-6910814c5087",
+      "width": 1720,
+      "x": 96,
+      "y": 746,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 65,
+      "layer": "",
+      "name": "nameTXT",
+      "persistentUuid": "4e715852-c417-4201-b3b6-3ab75a1b4e9c",
+      "width": 390,
+      "x": 99,
+      "y": 631,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 311,
+      "layer": "",
+      "name": "optionsTXT",
+      "persistentUuid": "af0c6961-1ce1-44a5-b501-1a4d8974f261",
+      "width": 1709,
+      "x": 104,
+      "y": 742,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "background",
+      "name": "background",
+      "persistentUuid": "c3838e39-db2b-4d66-b8d2-cb6474f1c01f",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 68,
+      "layer": "",
+      "name": "heart",
+      "persistentUuid": "299d4d28-0f6c-4af2-90e1-13d375a9f533",
+      "width": 45,
+      "x": 1863,
+      "y": 54,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "sad",
+      "persistentUuid": "c0b1c99c-862d-4f32-ade1-1fd7c347b1ef",
+      "width": 55,
+      "x": 1313,
+      "y": 48,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "love_bar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 100,
+        "InitialValue": 40
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Tina_s_Affection",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Diego's Respect >;)",
+      "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 36,
+        "g": 138,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Tina",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Nuetral.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 400
+                      },
+                      {
+                        "x": 36,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "angry",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "anger.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 400
+                      },
+                      {
+                        "x": 36,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sad",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sad.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 400
+                      },
+                      {
+                        "x": 36,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "happy",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "happy2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 400
+                      },
+                      {
+                        "x": 36,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "love",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "love.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 91
+                      },
+                      {
+                        "x": 220,
+                        "y": 400
+                      },
+                      {
+                        "x": 36,
+                        "y": 400
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dialogueBox",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "chat.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 0
+                      },
+                      {
+                        "x": 1775,
+                        "y": 345
+                      },
+                      {
+                        "x": 0,
+                        "y": 345
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nameTag",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "name_box.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 425,
+                        "y": 0
+                      },
+                      {
+                        "x": 425,
+                        "y": 105
+                      },
+                      {
+                        "x": 0,
+                        "y": 105
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "dialogueTXT",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BBText_AutoTyping",
+          "type": "AutoTyping::BBText_AutoTyping",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "CurrentCharacter": ""
+        }
+      ],
+      "content": {
+        "text": "",
+        "opacity": 255,
+        "fontSize": 45,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "nameTXT",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "name",
+        "opacity": 255,
+        "fontSize": 55,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "1f6e6d07c3a6894600d328198b30db216eb6b8c727a919fbd545a1bf1cee8377_OpenSans-VariableFont_wdth,wght.ttf",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "optionsTXT",
+      "tags": "",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "option\noption\noption",
+        "opacity": 255,
+        "fontSize": 45,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "Arial",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Untitled design.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 0
+                      },
+                      {
+                        "x": 3840,
+                        "y": 2160
+                      },
+                      {
+                        "x": 0,
+                        "y": 2160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "heart",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjc5LTEwMy1wLWwxNjd4ZGdvLnBuZw.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 1120
+                      },
+                      {
+                        "x": 0,
+                        "y": 1120
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sad",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed (2).jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2077,
+                        "y": 0
+                      },
+                      {
+                        "x": 2077,
+                        "y": 2725
+                      },
+                      {
+                        "x": 0,
+                        "y": 2725
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "diego"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"Start\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "restaurant-music-110483.mp3",
+            "2",
+            "",
+            "20",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+          },
+          "parameters": [
+            "love_bar",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"death\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "optionsTXT"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "optionsTXT",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"chomp\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Lettuce-48162 (1) (1).mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"diego\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Tina",
+            "\"255;255;255\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "nameTXT",
+            "=",
+            "\"[b][color=#007006]Diego[/b][/color=#007006]\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::HasBranch"
+          },
+          "parameters": [
+            "\"tina\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Tina",
+            "\"29;29;29\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"UN\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "nameTXT",
+            "=",
+            "\"[b][color=grey]???[/b][/color=grey]\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"You\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "nameTXT",
+            "=",
+            "\"[b][color=Blue]You[/b][/color=Blue]\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"emotion\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Tina",
+            "Animation",
+            "=",
+            "DialogueTree::CommandParameter(0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "BBText::SetBBText"
+          },
+          "parameters": [
+            "dialogueTXT",
+            "=",
+            "DialogueTree::LineText()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::GoToNextLine"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BBText_AutoTyping::SkipToEnd"
+                  },
+                  "parameters": [
+                    "dialogueTXT",
+                    "BBText_AutoTyping",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectNextOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectPreviousOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "LShift"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ConfirmSelectOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasSelectedOptionChanged"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "optionsTXT",
+                "=",
+                "DialogueTree::VerticalOptionsList(\"[b][color=blue] > [/color][/b]\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "Tina",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "5",
+                "5",
+                "1",
+                ".08",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTyping::BBText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=grey]???[/b][/color=grey]\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "Tina",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "5",
+                "5",
+                "1",
+                ".08",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BBText_AutoTyping::IsCharacterJustAdded"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=grey]???[/b][/color=grey]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "tinarex.mp3",
+                "1",
+                "no",
+                "100",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BBText_AutoTyping::IsCharacterJustAdded"
+              },
+              "parameters": [
+                "dialogueTXT",
+                "BBText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::IsBBText"
+              },
+              "parameters": [
+                "nameTXT",
+                "=",
+                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "DialogueTree::IsDialogueLineType"
+              },
+              "parameters": [
+                "\"options\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "tinarex.mp3",
+                "1",
+                "no",
+                "100",
+                "2"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"lessmeter\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "love_bar",
+            "-",
+            "ToNumber(DialogueTree::CommandParameter(0))",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"addmeter\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "love_bar",
+            "+",
+            "ToNumber(DialogueTree::CommandParameter(0))",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"end\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"win\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Rizz",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -71,5 +1742,38 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "BBText_AutoTyping",
+      "type": "AutoTyping::BBText_AutoTyping"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    }
+  ]
 }
