@@ -2,10 +2,120 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<You>>  \n<<emotion angry>> \nAll I can remember after crap went down on the island was a falling branch and hurting my head.\nNow, i'm on the verge of awakeing from a nap.\nI'm weirdly warm, like something is blowing warm air at me.\n<<UN>> \nAwaken, boy.\n<<You>> \nNuh uh 5 more minutes...\n<<UN>>\nHEY.\nWAKE.\nUP.\nNOW!!!!!\n",
+		"body": "<<You>>  \n<<emotion angry>> \nAll I can remember after crap went down on the island was a falling branch and hurting my head.\nNow, i'm on the verge of awakeing from a nap.\nI'm weirdly warm, like something is blowing warm air at me.\n<<UN>> \nAwaken, boy.\n<<You>> \nNuh uh 5 more minutes...\n<<UN>>\nHEY.\nWAKE.\nUP.\nNOW!!!!!\n[[Please don’t kill me.|1A]]\n[[(Say nothing)|1B]]\n[[This isn’t real! You are not real. This is just a hallucination.|1C]]",
 		"position": {
 			"x": 437,
 			"y": 252
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1A",
+		"tags": "",
+		"body": "<<emotion happy>>\nCalm down, I’m not gonna kill you. I just want you to open all the gates so I can see my daughter.\n<<addmeter 10>> \n[[2nd]]",
+		"position": {
+			"x": 142,
+			"y": 485
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1B",
+		"tags": "",
+		"body": "Hello??  Can’t you speak the words that are coming out of my mouth boy?\n<<lessmeter 10>>\n[[2nd]]",
+		"position": {
+			"x": 446,
+			"y": 548
+		},
+		"colorID": 0
+	},
+	{
+		"title": "1C",
+		"tags": "",
+		"body": "<<emotion happy>>\nI’m real alright and you will help me get out.\n[[2nd]]",
+		"position": {
+			"x": 733,
+			"y": 489
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2nd",
+		"tags": "",
+		"body": "<<emotion normal>>\nOkay, let me try this again.\n<<sasha>>\nHi, I am Sasha.\nAnd you will help me and my daughter.\nOr you shall be stomped.\n[[Only if you can get me out of here alive successfully|2A]]\n[[“Stomp on me?” I’m an ant compared to you.|2B]]\n[[I don’t know you or what you even are!!!|2C]]",
+		"position": {
+			"x": 452,
+			"y": 973
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2A",
+		"tags": "",
+		"body": "<<emotion angry>>\nYou don’t trust me, boy!!!\n[[I… just want to go home|A1]]\n[[We both get what we want and the name is “Robert”|A2]]\n[[You and your child can’t get out without me.|A3]]",
+		"position": {
+			"x": -460,
+			"y": 1340
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2B",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 455,
+			"y": 1320
+		},
+		"colorID": 0
+	},
+	{
+		"title": "2C",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 1471,
+			"y": 1324
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A1",
+		"tags": "",
+		"body": "<<emotion normal>>\n<<addmeter 5>>\nHmm… okay, but be warn do not get in my way again or your never getting home\n[[3rd]]",
+		"position": {
+			"x": -647,
+			"y": 1786
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A2",
+		"tags": "",
+		"body": "Smart one. I don’t like that in my preys, but I allow this once Robert.",
+		"position": {
+			"x": -355,
+			"y": 1691
+		},
+		"colorID": 0
+	},
+	{
+		"title": "A3",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -129,
+			"y": 1490
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3rd",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": 440,
+			"y": 2193
 		},
 		"colorID": 0
 	}
