@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5079575118131803,
+    "zoomFactor": 0.4913877545329421,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -61,11 +61,11 @@
       "depth": 1,
       "height": 993,
       "layer": "",
-      "name": "Tina",
+      "name": "sasha",
       "persistentUuid": "cf4f1acd-8fdc-487d-abd0-59c34fc854ad",
-      "width": 653,
-      "x": 571,
-      "y": 63,
+      "width": 1079,
+      "x": 313,
+      "y": 93,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -202,7 +202,6 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "love_bar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -271,13 +270,12 @@
       "italic": false,
       "name": "Tina_s_Affection",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Tina's Affection :3",
+      "string": "Sasha's Affection >:3",
       "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
       "textAlignment": "left",
       "characterSize": 30,
@@ -290,8 +288,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Tina",
-      "tags": "",
+      "name": "sasha",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -313,7 +310,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tile000.png",
+                  "image": "tile0002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -329,20 +326,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 52
+                        "x": 158,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 52
+                        "x": 470,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 406
+                        "x": 470,
+                        "y": 683
                       },
                       {
-                        "x": 0,
-                        "y": 406
+                        "x": 158,
+                        "y": 683
                       }
                     ]
                   ]
@@ -361,7 +358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tile001.png",
+                  "image": "tile005.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -377,20 +374,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 52
+                        "x": 158,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 52
+                        "x": 470,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 406
+                        "x": 470,
+                        "y": 683
                       },
                       {
-                        "x": 0,
-                        "y": 406
+                        "x": 158,
+                        "y": 683
                       }
                     ]
                   ]
@@ -409,7 +406,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tile002.png",
+                  "image": "tile006.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -425,20 +422,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 52
+                        "x": 158,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 52
+                        "x": 470,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 406
+                        "x": 470,
+                        "y": 683
                       },
                       {
-                        "x": 0,
-                        "y": 406
+                        "x": 158,
+                        "y": 683
                       }
                     ]
                   ]
@@ -457,7 +454,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tile003.png",
+                  "image": "tile007.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -473,20 +470,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 52
+                        "x": 158,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 52
+                        "x": 470,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 406
+                        "x": 470,
+                        "y": 683
                       },
                       {
-                        "x": 0,
-                        "y": 406
+                        "x": 158,
+                        "y": 683
                       }
                     ]
                   ]
@@ -505,7 +502,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "tile004.png",
+                  "image": "tile008.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -521,20 +518,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 52
+                        "x": 158,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 52
+                        "x": 470,
+                        "y": 51
                       },
                       {
-                        "x": 211,
-                        "y": 406
+                        "x": 470,
+                        "y": 683
                       },
                       {
-                        "x": 0,
-                        "y": 406
+                        "x": 158,
+                        "y": 683
                       }
                     ]
                   ]
@@ -549,7 +546,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueBox",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -610,7 +606,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "nameTag",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -670,7 +665,6 @@
     {
       "assetStoreId": "",
       "name": "dialogueTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -697,7 +691,6 @@
     {
       "assetStoreId": "",
       "name": "nameTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -716,7 +709,6 @@
     {
       "assetStoreId": "",
       "name": "optionsTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -736,7 +728,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -797,7 +788,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "heart",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -858,7 +848,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "sad",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -916,6 +905,44 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "love_bar"
+      },
+      {
+        "objectName": "Tina_s_Affection"
+      },
+      {
+        "objectName": "sasha"
+      },
+      {
+        "objectName": "dialogueBox"
+      },
+      {
+        "objectName": "nameTag"
+      },
+      {
+        "objectName": "dialogueTXT"
+      },
+      {
+        "objectName": "nameTXT"
+      },
+      {
+        "objectName": "optionsTXT"
+      },
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "heart"
+      },
+      {
+        "objectName": "sad"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1071,7 +1098,7 @@
             "value": "DialogueTree::IsCommandCalled"
           },
           "parameters": [
-            "\"tina\""
+            "\"sasha\""
           ]
         }
       ],
@@ -1081,7 +1108,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "Tina",
+            "sasha",
             "\"255;255;255\""
           ]
         },
@@ -1092,7 +1119,7 @@
           "parameters": [
             "nameTXT",
             "=",
-            "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+            "\"[b][color=#4f6cff]Sasha[/b][/color=#4f6cff]\""
           ]
         }
       ]
@@ -1122,7 +1149,7 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "Tina",
+            "sasha",
             "\"29;29;29\""
           ]
         }
@@ -1196,7 +1223,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "Tina",
+            "sasha",
             "Animation",
             "=",
             "DialogueTree::CommandParameter(0)"
@@ -1398,7 +1425,7 @@
               "parameters": [
                 "nameTXT",
                 "=",
-                "\"[b][color=#FF9DF6]Tina-Rex[/b][/color=#FF9DF6]\""
+                "\"[b][color=#4f6cff]Sasha[/b][/color=#4f6cff]\""
               ]
             }
           ],
@@ -1408,7 +1435,7 @@
                 "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
               },
               "parameters": [
-                "Tina",
+                "sasha",
                 "ShakeObject_PositionAngle",
                 "0.5",
                 "5",
@@ -1489,7 +1516,7 @@
                 "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
               },
               "parameters": [
-                "Tina",
+                "sasha",
                 "ShakeObject_PositionAngle",
                 "0.5",
                 "5",
@@ -1747,6 +1774,10 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

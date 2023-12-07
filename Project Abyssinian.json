@@ -667,11 +667,59 @@
         "name": "NewSprite5",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile0002.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile006.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile007.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tile008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tile008.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {

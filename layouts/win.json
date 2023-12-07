@@ -93,7 +93,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "end_game",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -252,7 +251,6 @@
       "italic": false,
       "name": "word",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -272,7 +270,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "button",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -336,7 +333,6 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -353,6 +349,23 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "end_game"
+      },
+      {
+        "objectName": "word"
+      },
+      {
+        "objectName": "button"
+      },
+      {
+        "objectName": "NewText"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
