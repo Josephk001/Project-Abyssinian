@@ -755,6 +755,13 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Sequence 01.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Sequence 01.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
