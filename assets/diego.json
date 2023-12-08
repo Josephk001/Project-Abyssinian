@@ -42,7 +42,7 @@
 	{
 		"title": "2nd",
 		"tags": "",
-		"body": "<<emotion normal>>\nMy name is Diego.\nI need humans like you to join my fight against the T-rex.\n[[I’m not fighting in your so call war|2A]]\n[[T-rex huh? I think you just want extra bodies to throw at him.|2B]]\n[[You want “me”? I just a visitor, how exactly will I be useful against an T-rex|2C]]",
+		"body": "<<emotion normal>>\n<<diego>>\nMy name is Diego.\nI need humans like you to join my fight against the T-rex.\n[[I’m not fighting in your so call war|2A]]\n[[T-rex huh? I think you just want extra bodies to throw at him.|2B]]\n[[You want “me”? I just a visitor, how exactly will I be useful against an T-rex|2C]]",
 		"position": {
 			"x": 578,
 			"y": 955
@@ -54,8 +54,8 @@
 		"tags": "",
 		"body": "<<emotion angry>>\nThis war I’m fighting…. is for everyone and I know you have no where to get out so what is it going to be. Death or Honor?\n[[Please… just let me go. This is crazy!!!|A1]]\n[[Why this particular T-rex?|A2]]\n[[If I join your fight…will you let me go?|A3]]",
 		"position": {
-			"x": -164,
-			"y": 1128
+			"x": -231,
+			"y": 1118
 		},
 		"colorID": 0
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Everyone has a place in my army and your place will be very efficient in my plans.\n[[What do I have to offer?|B1]]\n[[Are you planning to use me as bait for the T-rex?|B2]]\n[[Who is in your army?|B3]]",
 		"position": {
-			"x": 570,
-			"y": 1212
+			"x": 574,
+			"y": 1216
 		},
 		"colorID": 0
 	},
@@ -84,38 +84,38 @@
 		"tags": "",
 		"body": "So be death...\n<<chomp>>\n*CHOMP*\n<<lessmeter 999>>\nbe",
 		"position": {
-			"x": -674,
-			"y": 1143
+			"x": -787,
+			"y": 1128
 		},
 		"colorID": 0
 	},
 	{
 		"title": "A2",
 		"tags": "",
-		"body": "IT killed my family and not only that it went on a rampage massacring anyone in its path. I have my own reasons, but you have your own reason as well.\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nSWEET!\n<<addmeter 10>>\n[[3rd]]",
+		"body": "IT killed my family and not only that it went on a rampage massacring anyone in its path. I have my own reasons, but you have your own reason as well.\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nGood choice friend.\n<<addmeter 10>>\n[[3rd]]",
 		"position": {
-			"x": -401,
-			"y": 1409
+			"x": -435,
+			"y": 1407
 		},
 		"colorID": 0
 	},
 	{
 		"title": "A3",
 		"tags": "",
-		"body": "<<emotion normal>>\nLike a Pardon? I will give you one if we won the war and if your still alive\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nSWEET!\n<<addmeter 20>>\n[[3rd]]",
+		"body": "<<emotion normal>>\nLike a Pardon? I will give you one if we won the war and if your still alive\n<<You>>\nFine...\nIll join.\n<<emotion happy>>\n<<diego>>\nreally?\nGood choice friend.\n<<addmeter 20>>\n[[3rd]]",
 		"position": {
-			"x": -96,
-			"y": 1406
+			"x": -125,
+			"y": 1400
 		},
 		"colorID": 0
 	},
 	{
 		"title": "3rd",
 		"tags": "",
-		"body": "Empty Text",
+		"body": "<<emotion normal>> \nThe card you have gives us the upper hand against him and we can scout the area so we could plan our attack\n[[If this work, then I hope you the best|3A]]\n[[When do we start?|3B]]\n[[I’m no tactician. Can’t you find some other dinosaur?|3C]]",
 		"position": {
-			"x": 511,
-			"y": 1925
+			"x": 575,
+			"y": 1932
 		},
 		"colorID": 0
 	},
@@ -124,7 +124,7 @@
 		"tags": "",
 		"body": "<<addmeter 20>>\nYour position involves getting intel and accessing buildings to which I have no access to.\n[[3rd]]",
 		"position": {
-			"x": 323,
+			"x": 280,
 			"y": 1496
 		},
 		"colorID": 0
@@ -134,7 +134,7 @@
 		"tags": "",
 		"body": "<<addmeter 5>>\nThat was one of my ideas, but since you have the card, I have a better idea for you.\n[[3rd]]",
 		"position": {
-			"x": 617,
+			"x": 579,
 			"y": 1493
 		},
 		"colorID": 0
@@ -144,7 +144,7 @@
 		"tags": "",
 		"body": "I have a group of velociraptor, humans, and Triceptops.\n<<addmeter 5>>\n[[3rd]]",
 		"position": {
-			"x": 918,
+			"x": 885,
 			"y": 1494
 		},
 		"colorID": 0
@@ -174,8 +174,88 @@
 		"tags": "",
 		"body": "<<emotion sad>>\nThe other guy is gone…\n<<emotion angry>>\nand you don’t have a choice.\n<<lessmeter 10>>\n[[3rd]]",
 		"position": {
-			"x": 1978,
-			"y": 1584
+			"x": 2079,
+			"y": 1150
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3A",
+		"tags": "",
+		"body": "We don’t need hope to win.\n<<emotion happy>>\nJust confidence.\n[[4th]]",
+		"position": {
+			"x": 229,
+			"y": 2253
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3B",
+		"tags": "",
+		"body": "<<emotion happy>>\nLet's get going then.\n<<addmeter 10>>\n[[4th]]",
+		"position": {
+			"x": 507,
+			"y": 2263
+		},
+		"colorID": 0
+	},
+	{
+		"title": "3C",
+		"tags": "",
+		"body": "<<emotion angry>>\nNo other dinosaur can use the keycard because they not smart enough to use it.\nWhy cant you just help us...\n<<lessmeter 10>>\n[[4th]]",
+		"position": {
+			"x": 800,
+			"y": 2273
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4th",
+		"tags": "",
+		"body": "<<You>>\nAlright,\nI'm ready.\n<<emotion happy>>\n<<diego>>\nthats what I like to hear.\n<<addmeter 5>>\n<<emotion normal>>\nIf you are called apon the great beyond, what name shall we remember you by?\n[[Robert.|4A]]\n[[You wont need one. I’m not gonna die today|4B]]\n[[Does it matter?|4C]]",
+		"position": {
+			"x": 508,
+			"y": 2659
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4A",
+		"tags": "",
+		"body": "“Robert”.....\n<<emotion happy>>\n<<addmeter 20>>\nThat'll be the name me and the rest of the boys will know till the end.\n[[end]]",
+		"position": {
+			"x": 197,
+			"y": 2928
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4B",
+		"tags": "",
+		"body": "<<emotion happy>>\n<<addmeter 10>>\nAha ha ha ha ha ha haaaa-\n<<emotion normal>>\nAre you that confident? At least your a hopeful one.\n[[end]]",
+		"position": {
+			"x": 508,
+			"y": 2956
+		},
+		"colorID": 0
+	},
+	{
+		"title": "4C",
+		"tags": "",
+		"body": "<<lessmeter 5>>\nYou're right,\nbut who will remember you when you're gone?\n[[end]]",
+		"position": {
+			"x": 805,
+			"y": 2929
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "<<You>>\n*We soon found ourselves walking with the rest of the pack.*\n*We didn't how our nights were going to go\nOr if we were to see the next sunrise.*\n*But that didn't matter\nWe had dino to hunt.*\n<<end>>\nend",
+		"position": {
+			"x": 486,
+			"y": 3278
 		},
 		"colorID": 0
 	}

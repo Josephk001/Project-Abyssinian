@@ -77,7 +77,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "normal",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -140,7 +139,6 @@
       "italic": false,
       "name": "menu",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -162,7 +160,6 @@
       "italic": false,
       "name": "restart",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -179,6 +176,20 @@
       }
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "normal"
+      },
+      {
+        "objectName": "menu"
+      },
+      {
+        "objectName": "restart"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

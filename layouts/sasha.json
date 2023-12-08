@@ -202,7 +202,6 @@
     {
       "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
       "name": "love_bar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -271,7 +270,6 @@
       "italic": false,
       "name": "Tina_s_Affection",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -291,7 +289,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "sasha",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -549,7 +546,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dialogueBox",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -610,7 +606,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "nameTag",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -670,7 +665,6 @@
     {
       "assetStoreId": "",
       "name": "dialogueTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -697,7 +691,6 @@
     {
       "assetStoreId": "",
       "name": "nameTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -716,7 +709,6 @@
     {
       "assetStoreId": "",
       "name": "optionsTXT",
-      "tags": "",
       "type": "BBText::BBText",
       "variables": [],
       "effects": [],
@@ -736,7 +728,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "background",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -797,7 +788,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "heart",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -858,7 +848,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "sad",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -916,6 +905,44 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "love_bar"
+      },
+      {
+        "objectName": "Tina_s_Affection"
+      },
+      {
+        "objectName": "sasha"
+      },
+      {
+        "objectName": "dialogueBox"
+      },
+      {
+        "objectName": "nameTag"
+      },
+      {
+        "objectName": "dialogueTXT"
+      },
+      {
+        "objectName": "nameTXT"
+      },
+      {
+        "objectName": "optionsTXT"
+      },
+      {
+        "objectName": "background"
+      },
+      {
+        "objectName": "heart"
+      },
+      {
+        "objectName": "sad"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",

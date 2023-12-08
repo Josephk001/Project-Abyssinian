@@ -282,17 +282,6 @@
         }
       },
       {
-        "file": "assets/RampartOne-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "68aa9a6fa860ee71edbbdd8bb40fb357f4882570307bfb088af195f7fc8524f0_RampartOne-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/68aa9a6fa860ee71edbbdd8bb40fb357f4882570307bfb088af195f7fc8524f0_RampartOne-Regular.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "alwaysLoaded": false,
         "file": "tile000.png",
         "kind": "image",
@@ -339,15 +328,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Untitled-pknkYp_aR-transformed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Untitled-pknkYp_aR-transformed.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "chat.png",
         "kind": "image",
         "metadata": "",
@@ -382,46 +362,6 @@
         "metadata": "",
         "name": "Untitled design.png",
         "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "Hot Pursuit.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Hot Pursuit.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Devonshire Waltz Allegretto.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Devonshire Waltz Allegretto.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Hot Pursuit2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Hot Pursuit2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "New-Recording-40.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "New-Recording-40.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": true
       },
       {
@@ -501,50 +441,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/Kenney Mini Square.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/d73fbc705487707ea61faa2b865e21e3b24bea3319f75c2a124ad13bcae99ab4_Kenney Mini Square.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/MPLUS1p-Medium.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "324125cb585f82598dfa4c27a79e08c98042332f837f5c1c926dcfb15ffe55c9_MPLUS1p-Medium.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/324125cb585f82598dfa4c27a79e08c98042332f837f5c1c926dcfb15ffe55c9_MPLUS1p-Medium.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Roboto-Italic.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/c807beaa344a3d66eee7fb031c27c03f4b43a24d758cb76899434a26e9dae5b9_Roboto-Italic.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "assets/Silkscreen-Bold.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
         "file": "assets/YujiBoku-Regular.ttf",
         "kind": "font",
         "metadata": "",
@@ -560,16 +456,6 @@
         "kind": "audio",
         "metadata": "",
         "name": "Send for the Horses.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "Leaving Home.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Leaving Home.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -609,15 +495,6 @@
         "kind": "image",
         "metadata": "",
         "name": "war vet.png",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
         "smoothed": false,
         "userAdded": true
       },
@@ -715,38 +592,10 @@
       },
       {
         "disablePreload": false,
-        "file": "assets/DialogueData.json",
-        "kind": "json",
-        "metadata": "",
-        "name": "assets\\DialogueData.json",
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
         "file": "assets/sasha.json",
         "kind": "json",
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/sasha.json\"}",
         "name": "sasha",
-        "userAdded": true
-      },
-      {
-        "file": "sasa.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "sasa.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "file": "sasa2.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "sasa2.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
         "userAdded": true
       },
       {
@@ -787,15 +636,6 @@
         "name": "speech-bubble-thought-bubble-comic-bubble-transparent-free-free-png.webp",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "happy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "happy.png",
-        "smoothed": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -869,11 +709,60 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image000000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image000000.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image000001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image000001.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image000002 (Custom).jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "image000002 (Custom).jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "Untitled.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {

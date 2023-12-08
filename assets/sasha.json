@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "<<You>>  \n<<emotion angry>> \nAll I can remember after crap went down on the island was a falling branch and hurting my head.\nNow, i'm on the verge of awakeing from a nap.\nI'm weirdly warm, like something is blowing warm air at me.\n<<UN>> \nAwaken, boy.\n<<You>> \nNuh uh 5 more minutes...\n<<UN>>\nHEY.\nWAKE.\nUP.\nNOW!!!!!\n[[Please don’t kill me.|1A]]\n[[(Say nothing)|1B]]\n[[This isn’t real! You are not real. This is just a hallucination.|1C]]",
+		"body": "<<You>>  \n<<emotion angry>> \n*All I can remember after crap went down on the island was a falling branch and hurting my head.*\n*Now, i'm on the verge of awakeing from a nap.*\n*I'm weirdly warm, like something is blowing warm air at me.*\n<<UN>> \nAwaken, boy.\n<<You>> \nNuh uh 5 more minutes...\n<<UN>>\nHEY.\nWAKE.\nUP.\nNOW!!!!!\n[[Please don’t kill me.|1A]]\n[[(Say nothing)|1B]]\n[[This isn’t real! You are not real. This is just a hallucination.|1C]]",
 		"position": {
 			"x": 437,
 			"y": 252
@@ -182,7 +182,7 @@
 	{
 		"title": "end",
 		"tags": "",
-		"body": "*Thus, we continued though the woods, soon finding her daughter*\n*She was in an electric cage. This could be bad*\n*I grabbed anyways. I made a deal*\n<<end>>\nend",
+		"body": "<<emotion normal>>\n<<You>>\n*Thus, we continued though the woods, soon finding her daughter*\n*She was in an electric cage. This could be bad*\n*I grabbed anyways. I made a deal*\n<<end>>\nend",
 		"position": {
 			"x": 445,
 			"y": 2940

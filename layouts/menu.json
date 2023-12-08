@@ -141,7 +141,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "tree",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -202,7 +201,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dirt",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -264,7 +262,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "mountain",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -326,7 +323,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -387,7 +383,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -401,7 +396,6 @@
       "italic": false,
       "name": "tina_rex",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -423,7 +417,6 @@
       "italic": false,
       "name": "Sasha",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -445,7 +438,6 @@
       "italic": false,
       "name": "diego",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -465,7 +457,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Thit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -508,7 +499,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "S_hit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -551,7 +541,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "dhit",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -591,6 +580,44 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "tree"
+      },
+      {
+        "objectName": "dirt"
+      },
+      {
+        "objectName": "mountain"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "tina_rex"
+      },
+      {
+        "objectName": "Sasha"
+      },
+      {
+        "objectName": "diego"
+      },
+      {
+        "objectName": "Thit"
+      },
+      {
+        "objectName": "S_hit"
+      },
+      {
+        "objectName": "dhit"
+      }
+    ]
+  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
