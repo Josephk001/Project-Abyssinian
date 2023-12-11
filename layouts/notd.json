@@ -78,6 +78,7 @@
       "italic": false,
       "name": "NewText",
       "smoothed": true,
+      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -97,6 +98,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -157,6 +159,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -214,20 +217,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "NewSprite2"
-      }
-    ]
-  },
   "events": [],
   "layers": [
     {

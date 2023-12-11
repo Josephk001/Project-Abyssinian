@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -767,9 +767,6 @@
     "resourceFolders": []
   },
   "objects": [],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT"
-  },
   "objectsGroups": [],
   "variables": [
     {
